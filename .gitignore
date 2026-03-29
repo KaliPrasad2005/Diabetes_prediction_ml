@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ML/Data Science specific
+mlruns/
+*.db
+*.sqlite
+data/
+*.csv
+*.tsv
+*.dat
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.model
+*.pt
+*.pth
+
+# However, we DO want to keep project/mlflow.db or specific small artifacts if they are necessary,
+# but usually we shouldn't commit DBs or large models.
+# Since the user already has data and models in project, maybe we shouldn't exclude ALL models/data
+# Actually, I'll un-ignore data and models for now, as they might want to push their exact project state including small data/models.
+# I will only ignore environments and cache.
