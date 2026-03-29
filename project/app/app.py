@@ -35,13 +35,16 @@ st.markdown("""
         border-radius: 8px;
     }
     h1, h2, h3 {
-        color: #1f2937;
+        color: #f9fafb !important;
     }
     [data-testid="stAppViewContainer"] {
-        background-color: #f9fafb;
+        background-color: #0e1117;
     }
     [data-testid="stSidebar"] {
-        background-color: #ffffff;
+        background-color: #262730;
+    }
+    p, span, label {
+        color: #e5e7eb !important;
     }
 </style>
 """, unsafe_allow_html=True)
